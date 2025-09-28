@@ -75,7 +75,7 @@ const VeterinaryApp = () => {
   });
 
   // Webhook URL fijo
-  const WEBHOOK_URL = 'https://automatizacion.aigencia.ai/webhook/c4e16388-532b-4a73-b6c1-d1f7e318041c';
+  const WEBHOOK_URL = 'https://automatizacion.aigencia.ai/webhook/4f3f3342-93b8-4aef-aa87-eb068cdc6831';
 
   const reportTypes = [
     { value: 'anamnesis', label: 'Anamnesis', icon: FileText },
@@ -128,7 +128,7 @@ const VeterinaryApp = () => {
     setIsLoggingIn(true);
 
     try {
-      const loginWebhookUrl = "https://automatizacion.aigencia.ai/webhook/8fb72b52-94d5-42c3-b6f6-3600d8a8ae40";
+      const loginWebhookUrl = "https://automatizacion.aigencia.ai/webhook/9f3dd2cf-3846-4f69-9254-ff40b0d709fd";
       const formData = new FormData();
       formData.append('email', loginData.email);
       formData.append('password', loginData.password);
