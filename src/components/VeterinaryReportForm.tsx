@@ -536,7 +536,7 @@ const VeterinaryApp = () => {
                   <Stethoscope className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-3xl font-bold">Automatización de informes clínicos mascota</h1>
+                  <h1 className="text-3xl font-bold">Automatización de informes clínicos humanos</h1>
                   <p className="text-cyan-100 text-lg mt-1">Automatización de consultas y reportes médicos</p>
                 </div>
               </div>
